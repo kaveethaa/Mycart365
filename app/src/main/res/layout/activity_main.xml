@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="@color/red">
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/green"
+        android:background="@drawable/edt_border"
+        android:layout_marginLeft="30dp"
+        android:text="Online"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        app:srcCompat="@drawable/profile" />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/teal_200">
+        <ImageView
+            android:id="@+id/imageViwe1w"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/downarrow" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:text="Enroute to shop"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/teal_200">
+
+        <ImageView
+            android:id="@+id/imageVie1w"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            app:srcCompat="@drawable/uparrow" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="100dp"
+                android:text="0 km"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="30dp"
+            android:text="Store Address"/>
+
+        <ImageView
+            android:id="@+id/imageVfiew"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="120dp"
+            app:srcCompat="@drawable/more" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/teal_200">
+        <ImageView
+            android:id="@+id/imreagefVfiew"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            app:srcCompat="@drawable/more" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="0dp"
+            android:text="Nilgiris , mylapore"/>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="0dp"
+            android:text="No.6,north street,"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="0dp"
+                android:text="Mylopore,chennai-600004"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+        <ImageView
+            android:id="@+id/imagefVfiew"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="0dp"
+            app:srcCompat="@drawable/call" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="0dp"
+                android:text="call"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="30dp"
+            android:text="ORID-123234-790"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="100dp"
+            android:text="4 items"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="30dp"
+            android:text="Full cream milk"/>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="30dp"
+            android:text="500ml - pack"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="100dp"
+            android:text="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edt_border"
+                android:layout_marginLeft="30dp"
+                android:text="Full cream milk"/>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edt_border"
+                android:layout_marginLeft="30dp"
+                android:text="500ml - pack"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="100dp"
+            android:text="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edt_border"
+                android:layout_marginLeft="30dp"
+                android:text="Full cream milk"/>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/edt_border"
+                android:layout_marginLeft="30dp"
+                android:text="500ml - pack"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edt_border"
+            android:layout_marginLeft="100dp"
+            android:text="2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_gravity="center|bottom"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_pickorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Pickup order" />
+    </LinearLayout>
+
+</LinearLayout>
